@@ -19,7 +19,10 @@ function rotate(nums,k,n)
     {
         nums[i]= temp[i];
     }
-    // console.log(nums);
+
+    //output
+     console.log("After rotate Right:",nums);
 }
+
 
 rotate(nums,k,nums.length)
